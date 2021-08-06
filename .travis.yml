@@ -9,7 +9,7 @@ script:
 before_deploy:
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
   
-  deploy:
+deploy:
   provider: script
   script: docker push $DOCKER_USERNAME/node
   on:
