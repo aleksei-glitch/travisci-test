@@ -1,7 +1,4 @@
-sudo: required
-services:
-  - docker
-  
-scripts:
-  - docker build -t alekseiglitch/node .
-  - docker images alekseiglitch/node
+language: ruby
+rvm:
+ - 2.2
+ - jruby
