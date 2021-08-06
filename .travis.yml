@@ -1,4 +1,7 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build -t alekseiglitch/node .
+  - docker images <alekseiglitch/alekseiglitch
