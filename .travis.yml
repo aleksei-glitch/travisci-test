@@ -4,4 +4,4 @@ services:
 
 script:
   - docker build -t alekseiglitch/node .
-  - docker images <alekseiglitch/alekseiglitch
+  - docker images alekseiglitch/node
